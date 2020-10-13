@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		B6569A8D2534E8F700DE2CA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6569A8C2534E8F700DE2CA2 /* AppDelegate.swift */; };
 		B6569A8F2534E8F700DE2CA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6569A8E2534E8F700DE2CA2 /* SceneDelegate.swift */; };
-		B6569A912534E8F700DE2CA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6569A902534E8F700DE2CA2 /* ViewController.swift */; };
 		B6569A942534E8F700DE2CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6569A922534E8F700DE2CA2 /* Main.storyboard */; };
 		B6569A962534E8FD00DE2CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6569A952534E8FD00DE2CA2 /* Assets.xcassets */; };
 		B6569A992534E8FD00DE2CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6569A972534E8FD00DE2CA2 /* LaunchScreen.storyboard */; };
+		B6569AAE2535033000DE2CA2 /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6569AAD2535033000DE2CA2 /* StyleGuide.swift */; };
+		B6569ABC2535070200DE2CA2 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6569AB92535070100DE2CA2 /* Lato-Bold.ttf */; };
+		B6569ABD2535070200DE2CA2 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6569ABA2535070200DE2CA2 /* Lato-Light.ttf */; };
+		B6569ABE2535070200DE2CA2 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6569ABB2535070200DE2CA2 /* Lato-Regular.ttf */; };
+		B6569AC12535074200DE2CA2 /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6569AC02535074200DE2CA2 /* CustomTextFields.swift */; };
+		B6569AC62535087B00DE2CA2 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6569AC52535087A00DE2CA2 /* CustomLabel.swift */; };
+		B6569AC9253509B400DE2CA2 /* CustomSegementedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6569AC8253509B400DE2CA2 /* CustomSegementedControl.swift */; };
+		B6569ACC25350CBF00DE2CA2 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6569ACB25350CBF00DE2CA2 /* CalculatorViewController.swift */; };
+		B6569ACF2535119F00DE2CA2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6569ACE2535119F00DE2CA2 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6569A892534E8F700DE2CA2 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6569A8C2534E8F700DE2CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6569A8E2534E8F700DE2CA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B6569A902534E8F700DE2CA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6569A932534E8F700DE2CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6569A952534E8FD00DE2CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6569A982534E8FD00DE2CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6569A9A2534E8FD00DE2CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6569AAD2535033000DE2CA2 /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		B6569AB92535070100DE2CA2 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		B6569ABA2535070200DE2CA2 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		B6569ABB2535070200DE2CA2 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		B6569AC02535074200DE2CA2 /* CustomTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
+		B6569AC52535087A00DE2CA2 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		B6569AC8253509B400DE2CA2 /* CustomSegementedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegementedControl.swift; sourceTree = "<group>"; };
+		B6569ACB25350CBF00DE2CA2 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		B6569ACE2535119F00DE2CA2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,103 @@
 		B6569A8B2534E8F700DE2CA2 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				B6569AA92534FEC000DE2CA2 /* Views */,
+				B6569AA62534FE9600DE2CA2 /* Controllers */,
+				B6569AA52534FE7F00DE2CA2 /* HelpersAndExtensions */,
+				B6569AA22534FE5500DE2CA2 /* Resources */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		B6569AA22534FE5500DE2CA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AB82535068300DE2CA2 /* Fonts */,
 				B6569A8C2534E8F700DE2CA2 /* AppDelegate.swift */,
 				B6569A8E2534E8F700DE2CA2 /* SceneDelegate.swift */,
-				B6569A902534E8F700DE2CA2 /* ViewController.swift */,
-				B6569A922534E8F700DE2CA2 /* Main.storyboard */,
 				B6569A952534E8FD00DE2CA2 /* Assets.xcassets */,
+				B6569ACE2535119F00DE2CA2 /* Colors.xcassets */,
 				B6569A972534E8FD00DE2CA2 /* LaunchScreen.storyboard */,
 				B6569A9A2534E8FD00DE2CA2 /* Info.plist */,
 			);
-			path = Calculator;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B6569AA52534FE7F00DE2CA2 /* HelpersAndExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AAD2535033000DE2CA2 /* StyleGuide.swift */,
+			);
+			path = HelpersAndExtensions;
+			sourceTree = "<group>";
+		};
+		B6569AA62534FE9600DE2CA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AA72534FEA400DE2CA2 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B6569AA72534FEA400DE2CA2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6569ACB25350CBF00DE2CA2 /* CalculatorViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6569AA92534FEC000DE2CA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AB02535057200DE2CA2 /* CustomUI */,
+				B6569A922534E8F700DE2CA2 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6569AB02535057200DE2CA2 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AC42535084A00DE2CA2 /* CustomSegmentedControl */,
+				B6569AC32535083700DE2CA2 /* CustomLabels */,
+				B6569AB12535058200DE2CA2 /* CustomTextFields */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		B6569AB12535058200DE2CA2 /* CustomTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AC02535074200DE2CA2 /* CustomTextFields.swift */,
+			);
+			path = CustomTextFields;
+			sourceTree = "<group>";
+		};
+		B6569AB82535068300DE2CA2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AB92535070100DE2CA2 /* Lato-Bold.ttf */,
+				B6569ABA2535070200DE2CA2 /* Lato-Light.ttf */,
+				B6569ABB2535070200DE2CA2 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B6569AC32535083700DE2CA2 /* CustomLabels */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AC52535087A00DE2CA2 /* CustomLabel.swift */,
+			);
+			path = CustomLabels;
+			sourceTree = "<group>";
+		};
+		B6569AC42535084A00DE2CA2 /* CustomSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				B6569AC8253509B400DE2CA2 /* CustomSegementedControl.swift */,
+			);
+			path = CustomSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +228,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6569ABD2535070200DE2CA2 /* Lato-Light.ttf in Resources */,
+				B6569ABE2535070200DE2CA2 /* Lato-Regular.ttf in Resources */,
 				B6569A992534E8FD00DE2CA2 /* LaunchScreen.storyboard in Resources */,
 				B6569A962534E8FD00DE2CA2 /* Assets.xcassets in Resources */,
 				B6569A942534E8F700DE2CA2 /* Main.storyboard in Resources */,
+				B6569ABC2535070200DE2CA2 /* Lato-Bold.ttf in Resources */,
+				B6569ACF2535119F00DE2CA2 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6569A912534E8F700DE2CA2 /* ViewController.swift in Sources */,
+				B6569AC12535074200DE2CA2 /* CustomTextFields.swift in Sources */,
+				B6569AC9253509B400DE2CA2 /* CustomSegementedControl.swift in Sources */,
+				B6569AC62535087B00DE2CA2 /* CustomLabel.swift in Sources */,
 				B6569A8D2534E8F700DE2CA2 /* AppDelegate.swift in Sources */,
 				B6569A8F2534E8F700DE2CA2 /* SceneDelegate.swift in Sources */,
+				B6569ACC25350CBF00DE2CA2 /* CalculatorViewController.swift in Sources */,
+				B6569AAE2535033000DE2CA2 /* StyleGuide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +400,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 746938BQUT;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = Calculator/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 746938BQUT;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = Calculator/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

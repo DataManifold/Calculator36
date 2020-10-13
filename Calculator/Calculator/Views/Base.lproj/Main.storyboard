@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Calculator View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sNY-AU-Zk3">
+                                <rect key="frame" x="20.5" y="165" width="373" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill Amount:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="120" translatesAutoresizingMaskIntoConstraints="NO" id="srP-RY-zM6" customClass="CustomLabel" customModule="Calculator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="127.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Bill Total Here..." textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5lR-GU-YK1" customClass="CustomTextField" customModule="Calculator" customModuleProvider="target">
+                                        <rect key="frame" x="135.5" y="0.0" width="237.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vXs-yR-rZY">
+                                <rect key="frame" x="20.5" y="223" width="373" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Amount:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="120" translatesAutoresizingMaskIntoConstraints="NO" id="REC-Bb-UeU" customClass="CustomLabel" customModule="Calculator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="119" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bSE-2V-wCr" customClass="CustomSegmentedControl" customModule="Calculator" customModuleProvider="target">
+                                        <rect key="frame" x="127" y="0.0" width="246" height="32"/>
+                                        <segments>
+                                            <segment title="10%"/>
+                                            <segment title="15%"/>
+                                            <segment title="20%"/>
+                                            <segment title="25%"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="tipAmountSegmentedControlTapped:" destination="BYZ-38-t0r" eventType="valueChanged" id="E0a-bA-GhY"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LSC-Jp-cgs">
+                                <rect key="frame" x="20.5" y="278" width="373" height="29"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Total Amount:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ta8-IA-WEt" customClass="labelBold" customModule="Calculator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="233" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$25.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcy-3E-Lyv" customClass="labelBold" customModule="Calculator" customModuleProvider="target">
+                                        <rect key="frame" x="241" y="0.0" width="132" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgk-jW-Brs" customClass="labelBold" customModule="Calculator" customModuleProvider="target">
+                                <rect key="frame" x="20.5" y="98" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vXs-yR-rZY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="32b-Gh-vXN"/>
+                            <constraint firstItem="vXs-yR-rZY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="5Ue-pd-M46"/>
+                            <constraint firstItem="sNY-AU-Zk3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="6Aj-gZ-9BU"/>
+                            <constraint firstItem="LSC-Jp-cgs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="B3y-Ti-ndB"/>
+                            <constraint firstItem="sNY-AU-Zk3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CwO-xg-ucg"/>
+                            <constraint firstItem="sNY-AU-Zk3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="165" id="F6N-bI-m2H"/>
+                            <constraint firstItem="sNY-AU-Zk3" firstAttribute="leading" secondItem="vXs-yR-rZY" secondAttribute="leading" id="JG9-fn-4qA"/>
+                            <constraint firstItem="Fgk-jW-Brs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="M7n-ik-Lf6"/>
+                            <constraint firstItem="sNY-AU-Zk3" firstAttribute="leading" secondItem="LSC-Jp-cgs" secondAttribute="leading" id="Xzv-Kc-wgL"/>
+                            <constraint firstItem="Fgk-jW-Brs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YPL-H6-OK9"/>
+                            <constraint firstItem="LSC-Jp-cgs" firstAttribute="top" secondItem="vXs-yR-rZY" secondAttribute="bottom" constant="24" id="dKa-fw-jDN"/>
+                            <constraint firstItem="LSC-Jp-cgs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="e5k-EU-DrL"/>
+                            <constraint firstItem="vXs-yR-rZY" firstAttribute="top" secondItem="sNY-AU-Zk3" secondAttribute="bottom" constant="24" id="eLM-Dx-h5q"/>
+                            <constraint firstItem="sNY-AU-Zk3" firstAttribute="top" secondItem="Fgk-jW-Brs" secondAttribute="bottom" constant="46" id="emJ-Xg-Qme"/>
+                            <constraint firstItem="Fgk-jW-Brs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="y17-Sk-Yht"/>
+                            <constraint firstItem="sNY-AU-Zk3" firstAttribute="centerX" secondItem="LSC-Jp-cgs" secondAttribute="centerX" id="zcG-yI-tGh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="billAmountTextField" destination="5lR-GU-YK1" id="wnv-4Y-uVB"/>
+                        <outlet property="tipSegmentedControl" destination="bSE-2V-wCr" id="zQd-rM-D0p"/>
+                        <outlet property="totalAmountLabel" destination="vcy-3E-Lyv" id="83z-VV-5f5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-136" y="77"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
